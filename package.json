@@ -21,6 +21,7 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
+    "minimist": ">=1.2.2",
     "next": "^9.3.0",
     "react": "^16.13.0",
     "reactdom": "^2.0.0",
