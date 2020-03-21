@@ -24,6 +24,6 @@
     "next": "^9.3.0",
     "react": "^16.13.0",
     "reactdom": "^2.0.0",
-    "theme-ui": "^0.3.1"
+    "styled-components": "^5.0.1"
   }
 }
