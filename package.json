@@ -28,7 +28,7 @@
     "@types/node": "^13.9.3",
     "@types/react": "^16.9.25",
     "minimist": ">=1.2.2",
-    "next": "^9.3.0",
+    "next": ">=9.3.2",
     "react": "^16.13.0",
     "reactdom": "^2.0.0",
     "styled-components": "^5.0.1"
