@@ -1,12 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
-class Error extends React.Component{
+
+class Index extends React.Component{
     render(){
         return(
-            <Layout Title="Error">
+            <Layout Title="Parrot Tech">
             </Layout>
         )
     }
 }
 
-export default Error
+export default Index

@@ -1,5 +1,23 @@
-import '../styles.css'
+import App from 'next/app'
+import React from 'react'
+import { ThemeProvider, createGlobalStyle } from 'styled-components'
+import theme from '../themes/theme'
 
-export default function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+const GlobalStyle = createGlobalStyle`
+    body{
+        background-color: white;
+    }
+`
+
+class Site extends App{
+    render(){
+        const { Component, pageProps } = this.props
+        return(
+            <ThemeProvider theme={theme}>
+                <Component {...pageProps}/>
+            </ThemeProvider>
+        )
+    }
 }
+
+export default Site
