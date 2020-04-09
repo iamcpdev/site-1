@@ -1,7 +1,6 @@
 node_modules
 .next
 out
-package-lock.json
 
 # Extra files generated on server run
 next-env.d.ts
