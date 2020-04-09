@@ -1,3 +1,7 @@
 node_modules
 .next
 out
+
+# Extra files generated on server run
+next-env.d.ts
+tsconfig.json
